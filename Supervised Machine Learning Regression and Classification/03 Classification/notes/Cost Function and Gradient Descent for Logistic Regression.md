@@ -1,4 +1,6 @@
-## Cost function for logistic regression
+## Cost function and Gradient Descent for logistic regression
+
+### Cost function for logistic regression
 
 - The cost function gives you a way to measure how well a specific set of parameters fit the the training data
 - It gives a way to choose better parameters
@@ -44,3 +46,23 @@
 2. Simplified cost function using the simplified loss function
 
 ![alt text](./images/16.png)
+
+### Gradient Descent for logistic regression
+
+- How to fit the parameters of a logistic regression model?
+- Apply gradient descent
+    - Find the values of the parameters `w` and `b` that minimize the cost function J(w,b) 
+- Below is general gradient descent approach
+
+![alt text](./images/17.png)
+
+- This looks just like linear regression, is linear regression actually secretly the same as logistic regression?
+- Well, remember the definition of f(x) itself is a different function or has changed
+
+![alt text](./images/18.png)
+
+- Just like with linear regression: 
+  - Want to monitor gradient descent (learning curve)
+  - You can just apply the same method for logistic regression to make sure it also converges
+  - Use a vectorized implementation to improve speed
+  - Use feature scaling to to take on similar ranges of values, make it converge faster
