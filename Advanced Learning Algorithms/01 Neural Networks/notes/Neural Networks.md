@@ -95,3 +95,47 @@
 ![alt text](./images/11.png)
 ![alt text](./images/12.png)
 ![alt text](./images/13.png)
+
+## Tenserflow Implementataion
+
+- The simple steps for forward propagation in TensorFlow
+    - including computing the values of each layer
+    - then optionally thresholding the output
+
+![alt text](./images/14.png)
+
+### Data in Tenserflow
+
+- TensorFlow uses matrices to represent data for computational efficiency
+- There is a difference between numpy array
+    - single square brackets ([numbers]) represent a 1D vector
+    - double square brackets ([[numbers]]) represent a 2D array
+
+![alt text](./images/15.png)
+![alt text](./images/16.png)
+
+### Building a Neural Network
+
+- Sequential function allows you to string together layers to form a neural network
+- To train the neural network using the `model.compile` and `model.fit` functions in TensorFlow
+- To perform inference on the neural network using the `model.predict` function
+
+![alt text](./images/17.png)
+![alt text](./images/18.png)
+
+### Implementation in Python
+
+![alt text](./images/19.png)
+![alt text](./images/20.png)
+
+### Artificial General Intelligence (AGI)
+
+- In AI, tehre are 2 types
+    - Artificial general intelligence (AGI)
+        - AGI refers to AI systems that can perform any task a human can do
+    - Artificial narrow intelligence (ANI)
+        - ANI refers to AI systems that are designed to perform specific tasks
+- There are experiments conducted on animals that suggest that different parts of the brain can adapt to process different types of sensory inputs
+- This leads to the hypothesis that a small number of learning algorithms may be responsible for a wide range of intelligent behaviors
+- The specific algorithms are not yet known, but remains hopeful that they can be discovered in the future
+- The power and usefulness of neural networks and machine learning is remain, even without achieving AGI
